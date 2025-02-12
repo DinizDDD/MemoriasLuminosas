@@ -1,0 +1,22 @@
+body{
+    background-color: #fff1e6;
+  }
+  
+  .topo{
+      background-color: #635b5b;
+       
+  }
+  
+  .logos{
+    text-align: left;
+    vertical-align: left;
+  }
+  .loogos{
+    margin-left: auto;
+    display: flex; 
+  }  
+  
+  .monti{
+    font-family: Great Vibes;
+  }
+    

@@ -4,8 +4,7 @@ body{
   
   .topo{
       background-color: #635b5b;
-      
-      
+       
   }
   
   .logos{
@@ -14,42 +13,13 @@ body{
   }
   .loogos{
     margin-left: auto;
-    display: flex;
-  
-    
-  }
-  .bannerindex{
-    align-items: center;
-    margin-top: 10px;
-    
-  }
-  
-  .banner {
-    width: 100%;
-  }   
+    display: flex; 
+  }  
   
   .monti{
     font-family: Great Vibes;
-  
-    
   }
-  
-  .footer{
-      margin-top: 10px;
-      text-align: center;
-      padding: 3px;
-     
-      width: 100% ;
-      background-color: #a23e48;
-      
-    }
     
-    .fixed {
-      bottom: 0;
-      position: absolute;
-  
-  }
-  
   .links{
     a{
       display:block;
@@ -117,11 +87,6 @@ body{
       width: 40%;
     }
     
-    
-    .o_que_cantina{
-        color:#ffa9c5;
-    }
-    
   form-control.me-2{
       margin-top: 60px;
   }
@@ -166,13 +131,6 @@ body{
         color: rgb(255, 255, 255);
     }
     
-    .botao{
-        border: none;
-        border-radius: 6px;
-        background-color: #a23e48;
-        padding: .375rem .75rem;
-    }
-
     .navbar-brand{
         color: white;
     
