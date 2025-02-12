@@ -1,25 +1,4 @@
-    
-  form-control.me-2{
-      margin-top: 60px;
-  }
-    
-    .pesquisa{
-      text-align: right;
-    }
-    
-    .navbar-brand{
-        color: white;
-    }
-    
-    
-    .sobre{
-        text-decoration: none;
-    }
-  
-    .sobre:hover{
-        color: rgb(255, 255, 255);
-    }
-    
+   
     .nav-item{
         display: flex;
         align-items: center;
