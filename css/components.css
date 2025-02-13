@@ -4,7 +4,6 @@ body{
   
   .topo{
       background-color: #635b5b;
-       
   }
   
   .logos{
@@ -47,4 +46,20 @@ body{
 
 a.nav-link.active{
     color: white;
+}
+
+.info{
+  background-color: #322b2b;
+  margin-top: 32%;
+  margin-left: 2%;
+  position: fixed;
+  width: 3%;
+  border-radius: 40%;
+}
+
+.I{
+  color: #635b5b;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 40%;
 }
