@@ -22,6 +22,17 @@ body{
     display: flex; 
   }  
 
+  .bannerindex{
+    align-items: center;
+    
+    
+  }
+  
+  .banner {
+    width: 100%;
+  }   
+
+
 
   .nav-item{
     display: flex;
