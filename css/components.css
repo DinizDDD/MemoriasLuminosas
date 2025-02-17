@@ -82,14 +82,15 @@ margin-top: 40%;
 
 .footer_text{
   color: #eee8e8;
+  font-size: 18px;
 }
 
 .footer_line{
   color: #eee8e8;
   background-color: #eee8e8;
   border-radius: 20px;
-  width: 110%;
-  height: 5px;
+  width: 350px;
+  height: 3px;
 }
 
 .footerV2{
