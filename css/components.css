@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  font-family: Merriweather
+  
+}
+
 body{
     background-color: #eee8e8;
   }
@@ -14,10 +21,7 @@ body{
     margin-left: auto;
     display: flex; 
   }  
-  
-  .monti{
-    font-family: Great Vibes;
-  }
+
 
   .nav-item{
     display: flex;
