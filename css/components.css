@@ -99,6 +99,8 @@ margin-top: 40%;
 }
 
 .footerV2_bigtext{
+margin-top: 3px;
+font-size: 20px;
 margin-left: 10px;
 color: #eee8e8;
 }
