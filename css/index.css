@@ -1,0 +1,26 @@
+.history{
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+
+}
+
+.hstry_box{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.hstry_img{
+    width: 50%;
+    border-radius: 60px;
+}
+
+.hstry_text{
+    margin-top: 7%;
+    width: 35%;
+}
+
+.avaliation{
+    width: 20%;
+    background-color: black;
+}
