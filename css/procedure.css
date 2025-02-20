@@ -13,6 +13,34 @@ p{
     font-size: 20px;
     margin-top: 10px;
     
-    
+}
 
+.informations{
+    width: 80%;
+    margin: auto;
+}
+
+.big_textbox{
+    margin-top: 200px;
+}
+
+.bigText{
+    text-align: left;
+    font-size: 40px;
+}
+
+.textbox{
+    margin-top: 20px
+}
+
+.text{
+text-align: left;
+}
+
+.info_img{
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 20px;
+    
 }
