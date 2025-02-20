@@ -1,3 +1,16 @@
 .plans_text{
       background-color: #3a3838;
 }
+
+.card{
+      margin-top: 30px;
+      text-align: center;
+      margin-left: 30px;
+      align-items: center;
+  }
+  
+  .checked {
+      color: orange;
+      text-align: left;
+      margin-bottom: 10px;
+    }
