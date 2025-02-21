@@ -5,7 +5,8 @@ h1{
 
 p{
     text-align: center;
-    font-size: 27px;
+    font-size: 25px;
+    
 }
 
 .quality{
@@ -20,21 +21,31 @@ p{
     margin: auto;
 }
 
+.box{
+    display: flex;
+}
+
 .big_textbox{
     margin-top: 140px;
 }
 
 .bigText{
     text-align: left;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .textbox{
-    margin-top: 20px
+    margin-top: 20px;
+}
+
+.textboxV2{
+    margin-top: 20px;
+    margin-left: 100px;
 }
 
 .text{
     text-align: left;
+    margin-top: 2%;
 }
 
 .info_img{
@@ -42,5 +53,12 @@ p{
     margin-top: 20px;
     width: 70%;
     border-radius: 20px;
-    
 }
+
+.info_imgV2{
+    margin-top: 20px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+

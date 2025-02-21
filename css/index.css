@@ -7,11 +7,11 @@
 
 .hstry_box{
     display: flex;
-    justify-content: space-between; 
+    justify-content:space-between; 
 }
 
 .hstry_img{
-    width: 50%;
+    width: 45%;
     border-radius: 60px;
 }
 
