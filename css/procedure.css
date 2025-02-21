@@ -5,7 +5,7 @@ h1{
 
 p{
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .quality{
@@ -21,12 +21,12 @@ p{
 }
 
 .big_textbox{
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 .bigText{
     text-align: left;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .textbox{
@@ -34,13 +34,13 @@ p{
 }
 
 .text{
-text-align: left;
+    text-align: left;
 }
 
 .info_img{
     margin-left: 10%;
     margin-top: 20px;
-    width: 80%;
+    width: 70%;
     border-radius: 20px;
     
 }
