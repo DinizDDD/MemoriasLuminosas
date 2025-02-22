@@ -64,21 +64,17 @@ a.nav-link.active{
     color: white;
 }
 
-.info{
-  background-color: #1B1B1B;
-  margin-top: 32%;
-  margin-left: 2%;
+.zap{
   position: fixed;
-  width: 3%;
-  border-radius: 40%;
+  margin-top: 38%;
+  margin-left: 1%;
 }
 
-.I{
-  color: #eee8e8;
-  font-size: 30px;
-  text-decoration: none;
-  margin: 40%;
+.zapzap{
+  width: 16%;
+  border-radius: 100px;
 }
+
 
 .footer{
 display: flex;
