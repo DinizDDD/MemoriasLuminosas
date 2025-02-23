@@ -3,6 +3,7 @@
     width: 80%;
     margin: auto;
     margin-top: 135px;
+    border-radius: 40px;
 }   
 
 .title{
@@ -40,11 +41,22 @@ h1{
 }
 
 .continue{
-    width: 80%;
+    height: 60px;
+    width: 25%;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    background-color: #635B5B;
 }
 
 a{
-    align-self: center;
+    text-decoration: none;
+    color: #eee8e8;
+    font-size: 40px;
 }
+
+.continue_text:hover{
+    color:#322b2b;
+    transition: color 0.5s;
+  }
