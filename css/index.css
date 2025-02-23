@@ -14,10 +14,13 @@
     width: 45%;
     border-radius: 60px;
 }
-
+.hstry_text p{
+    font-size: 20px;
+}
 .hstry_text{
-    margin-top: 2%;
+    margin-top: 8%;
     width: 35%;
+    
 }
 
 p{
