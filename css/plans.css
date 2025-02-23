@@ -49,3 +49,13 @@
     hr{
       height: 60px;
     }
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover{
+      color: #c2bdbd;
+      transition: color 0.5s;
+    } 
