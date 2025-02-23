@@ -59,4 +59,10 @@ a{
 .continue_text:hover{
     color:#322b2b;
     transition: color 0.5s;
-  }
+}
+
+.text{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
