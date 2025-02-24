@@ -5,43 +5,42 @@
   
 }
 
+
 body{
     background-color: #eee8e8;
-  }
+}
 
   
-  .topo{
-      background-color: #635B5B;
+.topo{
+    background-color: #635B5B;
+}
+
+.logos{
+  text-align: left;
+  vertical-align: left;
+}
+
+.loogos{
+  margin-left: auto;
+  display: flex; 
+}  
+
+.bannerindex{
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+}   
+
+.nav-item{
+  display: flex;
+  align-items: center;
+
+  a{
+    font-size: 23px;
+    color: rgb(255, 255, 255);
   }
-  
-  .logos{
-    text-align: left;
-    vertical-align: left;
-  }
-  .loogos{
-    margin-left: auto;
-    display: flex; 
-  }  
-
-  .bannerindex{
-    align-items: center;
-    
-    
-  }
-  
-  .banner {
-    width: 100%;
-  }   
-
-
-
-  .nav-item{
-    display: flex;
-    align-items: center;
-    a{
-      font-size: 23px;
-      color: rgb(255, 255, 255);
-    }
 }
 
 .nav-item:hover{
@@ -75,14 +74,31 @@ a.nav-link.active{
   border-radius: 100px;
 }
 
+.section {
+  padding: 0 30px;
+  margin: 15px 0;
+}
+
+.column-row {
+  display: flex; 
+}
+
+.image {
+  border-radius: 30px;
+  
+  width: 350px;
+  margin: auto 15px;
+}
 
 .footer{
-display: flex;
-background-color: #635B5B;
-margin-top: 8%;
+  display: flex;
+  background-color: #635B5B;
+  margin-top: 8%;
 }
 
 .footer_textbox{
+  width: 350px;
+
   margin: auto;
   margin-top: 70px;
   margin-bottom: 40px;
@@ -97,7 +113,6 @@ margin-top: 8%;
   color: #eee8e8;
   background-color: #eee8e8;
   border-radius: 20px;
-  width: 350px;
   height: 3px;
 }
 
@@ -107,10 +122,10 @@ margin-top: 8%;
 }
 
 .footerV2_bigtext{
-margin-top: 3px;
-font-size: 20px;
-margin-left: 10px;
-color: #eee8e8;
+  margin-top: 3px;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #eee8e8;
 }
 
 .footerV2_text{
@@ -128,5 +143,34 @@ color: #eee8e8;
 }
 
 
+@media only screen and (max-width: 990px) {
+  .footer, .footerV2 {
+    flex-direction: column;
+    
+    .verticalHR {
+      display: none;
+    }
+  }
 
+  .footer_line {
+    width: 100%;
+  }
 
+  .footer_textbox {
+    margin: 15px auto;
+  }
+
+  .image {
+    margin: 15px auto;
+  }
+
+  .column-row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .footer_textbox {
+    width: 90%;
+  }
+}

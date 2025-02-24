@@ -5,23 +5,6 @@
 
 }
 
-.hstry_box{
-    display: flex;
-    justify-content:space-between; 
-}
-
-.hstry_img{
-    width: 45%;
-    border-radius: 60px;
-}
-.hstry_text p{
-    font-size: 20px;
-}
-.hstry_text{
-    margin-top: 8%;
-    width: 35%;
-    
-}
 
 p{
 font-size: 20px;
@@ -30,4 +13,27 @@ font-size: 20px;
 .avaliation{
     width: 20%;
     background-color: black;
+}
+
+.image {
+    width: 35%;
+}
+
+@media only screen and (max-width: 990px) {
+    .image {
+        width: 70%;
+    }
+    
+    .history {
+        width: 100%;
+    }
+
+    .hstry_text {
+        width: 100%;
+    }
+
+    .hstry_box {
+        width: 100%;
+        flex-direction: column;
+    }
 }
