@@ -50,6 +50,16 @@ hr{
   height: 60px;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: #c0bfbf;
+  transition: color 0.5s;
+}
+
 
 @media only screen and (max-width: 990px) {
   .section {
